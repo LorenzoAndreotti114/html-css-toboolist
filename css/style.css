@@ -14,6 +14,7 @@ body {
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.212);
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 15px;
 }
 
 .Button-Add-Task {
@@ -34,31 +35,99 @@ body {
     font-size: large;
 }
 
-.Ul-Arrow {
-    list-style-type: "➤";
+.Ul-Check-Yes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     text-align: left;
     color: rgb(19, 19, 19);
-    font-size: larger;
+    font-size: 20px;
+    padding: 5px;
 }
 
-.Ul-Check-Yes {
-    list-style-image: url(../img/done.svg);
-    text-align: left;
-    color: rgb(19, 19, 19);
-    font-size: larger;
+.Ul-Check-Yes::before {
+    content: "✅ ";
+    margin-left: 5px;
 }
 
 .Ul-Check-No {
-    list-style-image: url(../img/not-done.svg);
+    list-style: none;
+    padding: 0;
+    margin: 0;
     text-align: left;
     color: rgb(19, 19, 19);
-    font-size: larger;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.Ul-Check-No::before {
+    content: "❌ ";
+    margin-left: 5px;
 }
 
 .Ul-None {
     list-style-type: none;
+    text-align: left;
+    color: rgb(19, 19, 19);
+    font-size: 25px;
 }
 
 .White-Background {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+}
+
+.Li-Padding-Top {
+    padding-top: 30px;
+}
+
+.Editorial {
+    background-color: rgb(41, 173, 255);
+    color: white;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.Q1-Goals {
+    background-color: rgb(177, 0, 212);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.Recruiting {
+    background-color: rgb(0, 226, 139);
+    color: white;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.Mobile {
+    background-color: rgb(255, 166, 0);
+    color: white;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.Website {
+    background-color: rgb(255, 0, 234);
+    color: white;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.Sales {
+    background-color: rgb(208, 255, 1);
+    color: white;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.Padding-Bottom {
+    padding-bottom: 30px;
 }
