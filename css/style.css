@@ -4,15 +4,16 @@ body {
 }
 
 .Light-Gray-Background-Header {
-    background-color: rgb(216, 214, 214);
+    background-color: rgb(237, 242, 247);
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.212);
     margin-bottom: 40px;
 }
 
 .Light-Gray-Background-Main {
-    background-color: rgb(216, 214, 214);
+    background-color: rgb(237, 242, 247);
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.212);
-
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .Button-Add-Task {
@@ -22,6 +23,7 @@ body {
     border-color: rgba(0, 0, 0, 0);
     background-color: rgb(41, 173, 255);
     color: white;
+    margin: 3%;
 }
 
 .Text-Add-Task {
@@ -30,4 +32,33 @@ body {
     border-radius: 5px;
     border-color: rgba(0, 0, 0, 0.336);
     font-size: large;
+}
+
+.Ul-Arrow {
+    list-style-type: "➤";
+    text-align: left;
+    color: rgb(19, 19, 19);
+    font-size: larger;
+}
+
+.Ul-Check-Yes {
+    list-style-image: url(../img/done.svg);
+    text-align: left;
+    color: rgb(19, 19, 19);
+    font-size: larger;
+}
+
+.Ul-Check-No {
+    list-style-image: url(../img/not-done.svg);
+    text-align: left;
+    color: rgb(19, 19, 19);
+    font-size: larger;
+}
+
+.Ul-None {
+    list-style-type: none;
+}
+
+.White-Background {
+    background-color: white;
 }
